@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author think
  */
 @SpringBootApplication
-@MapperScan("com.mmp.mp.url.mapper")
+//@MapperScan("com.mmp.mp.url.mapper")
 public class MybatisMpApplication {
 
     public static void main(String[] args) {

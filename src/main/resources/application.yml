@@ -1,0 +1,13 @@
+logging:
+  level:
+    com.baomidou.mybatisplus.samples: debug
+
+mybatis-plus:
+  mapper-locations: classpath:/mapper/*Mapper.xml
+
+# 配置 分页插件
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
